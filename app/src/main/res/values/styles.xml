@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+        <!--<string name="picture">Picture</string>-->
+        <!--<string name="description_info">Info</string>-->
+        <!--<string name="request_permission">This app needs camera permission.</string>-->
+    </style>
+
+</resources>

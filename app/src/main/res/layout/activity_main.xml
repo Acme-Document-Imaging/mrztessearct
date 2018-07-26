@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openCVImage"
+        app:srcCompat="@android:drawable/sym_def_app_icon" />
+
+    <TextView
+        android:id="@+id/sample_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:onClick="clearText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:onClick="openGallery"
+        android:text="OpenGallery" />
+    <Button
+        android:id="@+id/tessOCR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="tessOCR"
+
+        android:text="OCR" />
+    <Button
+        android:id="@+id/vOCR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openCVImage"
+        android:text="Process with Open CV" />
+
+    <Button
+        android:id="@+id/Camera2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="OpenCamera2"
+        android:text="Open Camera 2" />
+
+
+</LinearLayout>
